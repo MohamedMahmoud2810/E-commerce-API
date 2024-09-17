@@ -58,8 +58,8 @@ Step-by-Step Installation
 Clone the repository:
 
 
-git clone https://github.com/yourusername/laravel-recruitment-assignment.git
-cd laravel-recruitment-assignment
+git clone https://github.com/MohamedMahmoud2810/E-commerce-API/edit/main/README.md
+cd file name
 
 
 Install dependencies:
@@ -78,6 +78,27 @@ DB_PORT=3306
 DB_DATABASE=your_database
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
+
+APP_URL=http://127.0.0.1:8000
+
+BROADCAST_DRIVER=pusher
+CACHE_DRIVER=file
+FILESYSTEM_DISK=local
+QUEUE_CONNECTION=database
+SESSION_DRIVER=file
+SESSION_LIFETIME=120
+
+put mail configurations
+
+put pusher app key and app id 
+
+put JWT_SECRET
+
+put STRIPE_KEY
+
+STRIPE_SECRET
+
+
 Run migrations and seeders:
 
 php artisan migrate --seed
